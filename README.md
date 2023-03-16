@@ -19,7 +19,7 @@ Welcome to the study group! We shall consolidate our knowledge through practices
 ## Day 2, 17 Mar 2023
  - [ ] provide hints for solving Ex2:Function1 through a simple demo
  - [ ] use [swapi.dev](swapi.dev) as example to demonstrate how to solve Ex2:Function 3
- - [ ] Workshop - Build simple API for Collar 
+ - [ ] Workshop - Build simple API for Collar ([Specs](https://github.com/adams-tecky/c25-wsp-study-group/blob/main/day2/collar-api-spec.md))
 
 
 ## Day 3, 20 Mar 2023
