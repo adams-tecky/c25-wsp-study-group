@@ -11,10 +11,10 @@ Welcome to the study group, we shall consolidate our knowledge through practices
 	- [x] [Matching Brackets](https://exercism.org/tracks/typescript/exercises/matching-brackets) (WSP001)
 
  - please refer to the [markdown file](https://github.com/teckyio/hk-map-25-feb-23-tw-exercises/blob/main/02_WSP/WSP004/adams/Exercise.md) and complete:
-	 - [x] Ex1: The Reading List
+	 - [x] ex1: The Reading List
 		 - [video recording 1](https://youtu.be/EaCQBMnN36g)
 		 - [video recording 2](https://youtu.be/yM2j8cddREo)
-	 - [ ] Ex2: Function 1,2,3 
+	 - [ ] ex2: Function 1,2,3 
 
 ## Day 2, 17 Mar 2023
 
