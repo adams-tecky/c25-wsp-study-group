@@ -17,8 +17,8 @@ Welcome to the study group! We shall consolidate our knowledge through practices
 	 - [ ] Ex2: Function 1,2,3 
 
 ## Day 2, 17 Mar 2023
- - [ ] i shall pave the way for solving Ex2:Function1 through a simple demo
- - [ ] we will use [swapi.dev](swapi.dev)  as example to demonstrate how to solve Ex2:Function 3
+ - [ ] provide hints for solving Ex2:Function1 through a simple demo
+ - [ ] use [swapi.dev](swapi.dev) as example to demonstrate how to solve Ex2:Function 3
  - [ ] Workshop - Build simple API for Collar 
 
 
