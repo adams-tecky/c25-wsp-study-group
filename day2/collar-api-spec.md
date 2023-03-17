@@ -14,7 +14,7 @@
 ## Objective
 
 Our API will manage Collar's new track:
-- create a new track
+- create a new track using HTML Form
 - retrieve a list of tracks or a single track
 - update an existing track's information
 - delete a track
