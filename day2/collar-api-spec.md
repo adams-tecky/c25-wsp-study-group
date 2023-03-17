@@ -20,30 +20,46 @@ Our API will manage Collar's new track:
 - delete a track
 
 We will build these endpoints:
-`GET /tracks` should return all the albums `GET /tracks/:albumId` should return a single album (that matches the passed albumId) `POST /tracks` should save a new album `PUT /tracks/:trackId` should update the album (that matches the passed albumId) `DELETE /tracks/:trackId` should delete the album (that matches the passed albumId)
+- `GET /tracks` should return all the tracks 
+- `GET /tracks/:trackId` should return a single track (that matches the passed trackId) 
+- `POST /tracks` should save a new track 
+- `PUT /tracks/:trackId` should update the track (that matches the passed trackId) 
+- `DELETE /tracks/:trackId` should delete the track (that matches the passed trackId)
 
 
-In the `server.ts`, add in the following data parsed from Spotify API:
+## Setup
+In the `server.ts`, add in the following data parsed from Spotify API as initial data:
 ```js
 const tracksData = [
   {
     trackId: "2S0xQFTOafzeErzgTaQavg",
     artistName: "COLLAR",
-    collectionName: "The Bright Side",
+    name: "The Bright Side",
     artworkUrl100:
       "https://i.scdn.co/image/ab67616d0000b27352cb8b6193f2ceb19d52c173",
     releaseDate: "2023-01-13T00:00:00Z",
     url: "https://open.spotify.com/track/2S0xQFTOafzeErzgTaQavg",
   },
   {
-    albumId: "2rbid0M6p0FaDplPh5ey6P",
+    trackId: "2rbid0M6p0FaDplPh5ey6P",
     artistName: "COLLAR",
-    collectionName: "OFF/ON",
+    name: "OFF/ON",
     artworkUrl100:
       "https://i.scdn.co/image/ab67616d0000b273fcce104b34bbe56419afd90f",
     releaseDate: "2022-07-15T00:00:00Z",
     url: "https://open.spotify.com/track/1k4epQqpbGkyIm3O6bRALu",
   },
 ];
+```
 
+For creating new track using **POST** method,you may use the following data:
+```
+{
+  trackId: "2MKENhpdJ8egUGHl6EWG5F",
+  artistName: "COLLAR",
+  name: "Never-never Land",
+  artworkUrl100: "https://i.scdn.co/image/ab67616d0000b273a6fc7fd4773859e9b0527999",
+  releaseDate: "2022-03-18T00:00:00Z",
+  url: "https://open.spotify.com/track2MKENhpdJ8egUGHl6EWG5F"
+}
 ```
