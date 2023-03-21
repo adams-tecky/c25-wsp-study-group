@@ -14,7 +14,7 @@ Welcome to the study group! We shall consolidate our knowledge through practices
 	 - [x] Ex1: The Reading List
 		 - [video recording 1](https://youtu.be/EaCQBMnN36g)
 		 - [video recording 2](https://youtu.be/yM2j8cddREo)
-	 - [ ] Ex2: Function 1,2,3 
+	 - [x] Ex2: Function 1,2,3 
 
 ## Day 2, 17 Mar 2023
  - [x] provide hints for Ex2:Function1 through a simple demo
