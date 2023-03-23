@@ -8,4 +8,5 @@
 - [ ] port listening
 - [ ] basic get handling, test connection
 - [ ] serve static assest
-- [ ] what kind of data do you wanna serve and how do you know what to serve
+- [ ] route handling (how do you know what to serve)
+- [ ] beware the format of data you send back to client
