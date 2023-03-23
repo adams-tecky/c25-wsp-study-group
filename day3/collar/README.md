@@ -9,4 +9,3 @@
 - [ ] basic get handling, test connection
 - [ ] serve static assest
 - [ ] what kind of data do you wanna serve and how do you know what to serve
-- [ ] 

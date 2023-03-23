@@ -1,8 +1,26 @@
 window.onload = () => {
 
     fetchData()
-}
 
+    document.querySelector(".bt").addEventListener('click',postData)
+}
+async function postData() {
+    console.log("triggered")
+    let res = await fetch('/track', {
+        method: 'POST',
+        headers:{
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            trackId: "2MKENhpdJ8egUGHl6EWG5F",
+            artistName: "COLLAR",
+            name: "Never-never Land",
+            artworkUrl100: "https://i.scdn.co/image/ab67616d0000b273a6fc7fd4773859e9b0527999",
+            releaseDate: "2022-03-18T00:00:00Z",
+            url: "https://open.spotify.com/track2MKENhpdJ8egUGHl6EWG5F"
+        })
+    })
+}
 
 async function fetchData() {
     let res = await fetch('/tracks');
@@ -25,3 +43,4 @@ async function fetchData() {
     }
 
 }
+
