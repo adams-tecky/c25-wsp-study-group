@@ -25,7 +25,7 @@ Welcome to the study group! We shall consolidate our knowledge through practices
 
 
 ## Day 3, 21 Mar 2023
-- [ ] Workshop - Build simple API for Collar ([Specs](https://github.com/adams-tecky/c25-wsp-study-group/blob/main/day2/collar-api-spec.md))
+- [ ] Workshop - Build simple API for Collar ([Specs](https://github.com/adams-tecky/c25-wsp-study-group/blob/main/collar-api-spec.md))
 - please complete Daily Challenge:
 	- [ ] [Grade School](https://exercism.org/tracks/typescript/exercises/grade-school)(WSP003)
 
